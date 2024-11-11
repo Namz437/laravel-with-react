@@ -27,6 +27,7 @@ class PostController extends Controller
             'content' => 'required',
         ]);
 
+        // oke
         // check if validations fails
         if ($Validator->fails()) {
             return response()->json($Validator->errors(), 422);
