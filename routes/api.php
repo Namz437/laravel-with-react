@@ -9,3 +9,5 @@ Route::get('/user', function (Request $request) {
 
 // Route
 Route::apiResource('/posts', App\Http\Controllers\Api\PostController::class);
+
+Route::apiResource('/mcpe', App\Http\Controllers\Api\McpeController::class);
